@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from cost_function import compute_cost_function
+from cost_function_sara import compute_cost_function
 from model_params import (
     LAMBDA_1,
     LAMBDA_2,

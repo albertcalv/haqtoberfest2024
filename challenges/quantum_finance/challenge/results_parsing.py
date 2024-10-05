@@ -98,7 +98,8 @@ def get_optimal_binary_portfolios_prob_and_energy(ansatz: Circuit, dataset: pd.D
 
 
 def get_binary_portfolio(assets: list, ordered_bitstring, num_qubit_per_asset=K) -> dict:
-    """Returns a binry portfolio -e.g, {'asset_1':'110, 'asset_2':'101'}. To provide the assets you can user DataFrame.columns.
+    """Returns a binary portfolio -e.g, {'asset_1':'110, 'asset_2':'101'}.
+    Relates the asset with the binary output of the circuit.
 
     Args:
         assets (_type_): name of the asset
